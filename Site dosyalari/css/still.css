@@ -24,10 +24,11 @@ body
 }
 .cizgi
 {
-	bordor:none;
+	border:none;
 	border-top:3px solid #212121;
 	max-width:750px;
 	margin:25px auto;
+	
 }
 .hakkimdaicon
 {
