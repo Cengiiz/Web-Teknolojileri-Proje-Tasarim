@@ -25,6 +25,8 @@ section
 	width:955px;
 	position:relative;
 	padding-right:-50px;
+		border-color:blue;
+	border-style:solid;
 }
 ul
 {
@@ -61,6 +63,8 @@ float: left; padding: 0 10px 0 0;
 	padding-top:19px;
 	padding-left:5px;
 	font-size:18px;
+	border-color:blue;
+	border-style:solid;
 }
 .kaydirma
 {
@@ -91,7 +95,7 @@ float: left; padding: 0 10px 0 0;
 {
 	background-color:cyan;
 	border-color:cyan;
-	width:300px:
+	width:300px;
 }
 .ilcelersec1
 {
@@ -135,7 +139,7 @@ float: left; padding: 0 10px 0 0;
 	float:left;
 	width:1200px;
 	min-height:280px;
-	 border-color:gray; 
-	 border-style:dashed; 
+	/* border-color:gray;  */
+	/* border-style:dashed;  */
 	background-color:cyan;
 }
