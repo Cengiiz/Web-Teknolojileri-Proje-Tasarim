@@ -1,8 +1,39 @@
 .yesil
 {
 	background-color:#0CCF2D;
+	min-height: 150px;
+	position: relative;
+	margin-left: 49px;
 }
 .mavi
 {
 	background-color:#009DFF;
+	min-height: 150px;
+	position: relative;
+	margin-left: 49px;
+}
+.kartlarseca
+{
+	position: relative;
+	top: -1250px;
+	margin-left: 85px;
+
+}
+.kartlarsecb
+{
+	position: relative;
+	top: -1100px;
+	margin-left: 85px;
+}
+.kartbody
+{
+	max-width: 1000px;
+	height: 250px;
+	width: 250px;
+	
+}
+body
+{
+	max-width: 1850px;
+	background-color: red;
 }
