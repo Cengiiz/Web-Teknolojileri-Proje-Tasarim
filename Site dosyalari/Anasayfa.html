@@ -1,127 +1,514 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--Font kutuphanesi-->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-	<!--Icon kutuphanesi-->
-	<script src="https://kit.fontawesome.com/2efb00a3b7.js" crossorigin="anonymous"></script>
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/still.css">
-	<title>Merhaba Dunya</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Icon kutuphanesi-->
+    <script src="https://kit.fontawesome.com/2efb00a3b7.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sablon.css">
+    <link rel="stylesheet" href="css/anasayfa.css">
+    <title>Hello, world!</title>
 </head>
 
 <body>
-	<!--Menu-->
-	<nav class="navbar navbar-expand-xg navbar-dark bg-dark fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand">Memleketim</a>
-			<a class="navbar-brand">Yazi</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="anasayfa.html">Anasayfa</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">
-							Rize
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li>
-								<a class="dropdown-item" href="Rizegenel.html">Genel Bilgiler</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<a class="dropdown-item" href="Rizekultur.html">Kültür</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<a class="dropdown-item" href="Rizeturizm.html">Turizm</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<a class="dropdown-item" href="Rizespor.html">RİZESPOR</a>
-							</li>
-						</ul>
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">
-							Ilgi Alanlarim
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li>
-								<a class="dropdown-item" href="Espor.html">E-spor</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<a class="dropdown-item" href="Akvaryum.html">Akvaryum</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<a class="dropdown-item" href="araniyor.html">araniyor</a>
-							</li>
-						</ul>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Cv</a>
-					</li>
-				</ul>
-				<form class="d-flex"></form>
-			</div>
-		</div>
-	</nav>
-	<!--Menu son  -->
-	<!--Hakkımda Baslangic-->
-	<section class="p-5 text-center hakkimda">
-		<div class="container">
-			<h2 class="mb-5 font-weight-bold baslikkalinfont">Cengizhan KOÇAL Kimdir ?</h2>
-			<hr class="cizgi">
-			<img class="hakkimdaicon" src="https://img.icons8.com/cotton/64/000000/name--v2.png" />
-			<p>Merhaba ben Cengizhan KOÇAL.11 Haziran 1999 yilinda Pendikte dunyaya geldim.Aslen Rizeliyim fakat dogma
-				buyume Istanbulluyum.
-			</p>
-		</div>
-	</section>
-	<!--Hakkımda Baslangic-->
-	<!--Hakkımda Baslangic-->
-	<section class="p-5 text-center hobilerim ">
-		<div class="container">
-			<h2 class="mb-5 font-weight-bold baslikkalinfont">Hobilerim</h2>
-			<hr class="cizgi">
-			<img class="hobilericon" src="Icons/hobilericon.png" />
+    <!--MENU BASLANGICI-->
+    <nav class="navbar navbar-expand-xl navbar-light  fixed-top" style="background-color: #f88d00">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">G201210376</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Anasayfa.html">Cengizhan KOCAL</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            RIZE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Rizegenel.html">Genel Bilgiler</a></li>
+                            <li><a class="dropdown-item" href="kultur.html">Kultur</a></li>
+                            <li><a class="dropdown-item" href="turizm.html">Turizm</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ilgi Alanlarim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">E-SPOR</a></li>
+                            <li><a class="dropdown-item" href="#">AKVARYUM</a></li>
+                            <li><a class="dropdown-item" href="#">ARANIYOR</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-		</div>
-	</section>
-	<!--Hakkımda Baslangic-->
-	<!-- Optional JavaScript; choose one of the two! -->
-	<!-- Option 1: Bootstrap Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-	</script>
-	<!-- Option 2: Separate Popper and Bootstrap JS -->
-	<!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
-    -->
+    <!--MENU BITISI-->
+    <!--Hakkımda Baslangic-->
+    <section class="p-5 text-center hakkimda">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold baslikkalinfont">Cengizhan KOÇAL Kimdir ?</h2>
+            <hr class="cizgi">
+            <img class="hakkimdaicon" src="https://img.icons8.com/cotton/64/000000/name--v2.png" />
+            <p>Merhaba ben Cengizhan KOÇAL.11 Haziran 1999 yilinda Pendikte dunyaya geldim.Aslen Rizeliyim fakat dogma
+                buyume Istanbulluyum.
+            </p>
+        </div>
+    </section>
+    <!--Hakkımda####-->
+
+
+
+
+
+
+    <!--hobiler ve spor-->
+    <aside class="hobisporaside buyume">
+        <side>
+
+            <div class=" accordion  " id="accordionExample">
+                <h2 class="text-center" style="color: black;">Hobilerim</h2>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#bitkia" aria-expanded="true" aria-controls="collapseOne">
+                            Bitkiler ile ilgilenmek
+                        </button>
+                    </h2>
+                    <div id="bitkia" class="accordion-collapse collapse show " aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ">
+                            <img class="bitkifoto" src="resimler/bitki.jpg">
+                            <strong> Bitkilerle ilgilenmek </strong> küçük bir <strong> terapi </strong> denilebilir.
+                            Özellikle de doğayla
+                            etkileşimimizi evimizdeki bitkiler üzerinden yakalayabildiğimiz bu günlerde toprakla,
+                            yaprakla, çiçekle haşır neşir olmak ruhunuza iyi gelecek. Önerimiz ise bu ilginizi bir üst
+                            seviyeye taşıyarak, örneğin bitki çoğaltma yöntemlerini keşfetmeniz.
+                            Doğa her zaman büyüleyici, fakat bitkilerin yeniden doğduğu ilkbahar aylarını ve en görkemli
+                            dönemlerini yaşadıkları yaz mevsimini ayrı bir yere koymamız gerektiğini de düşünüyoruz!
+                            Ağaçlara sarılmak, çimenlere uzanıp gökyüzünü izlemek, tüm çiçekleri koklamak istediğiniz bu
+                            dönemi aslında küçük çaplı olarak, her mevsim evinizde yaşamanız mümkün. Nasıl mı? Elbette
+                            evde bitki yetiştirmeye başlayarak!<br>Bu konuda
+                            <strong><a href="https://www.sinpas.com.tr/liveinsinpas/bitki-cogaltma-yontemleri">Bitki
+                                    Çoğaltma Yöntemleri</a></strong> içeriği size yardımcı olabilir.ilkbahar aylarını ve
+                            en görkemli
+                            dönemlerini yaşadıkları yaz mevsimini ayrı bir yere koymamız gerektiğini de
+                            düşünüyoruz!ilkbahar aylarını ve en görkemli
+                            dönemlerini yaşadıkları yaz mevsimini ayrı bir yere koymamız gerektiğini de
+                            düşünüyoruz!ilkbahar aylarını ve en görkemli
+                            dönemleriniilkbahar aylarını ve en görkemli
+                            dönemleriniilkbahar aylarını ve en görkemli
+                            dönemleriniilkbahar aylarını ve en görkemli
+                            dönemlerini
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#PUZZLE" aria-expanded="false" aria-controls="collapseTwo">
+                            3 BOYUTLU PUZZLE
+                        </button>
+                    </h2>
+                    <div id="PUZZLE" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <img class="bitkifoto" src="resimler/puzzle.jpg">
+                            Puzzle yapmayı seviyorsanız ve bu konuda kendinize güveniyorsanız, bir de 3D
+                            puzzle’lar yapmayı denemeye ne dersiniz? Bir nevi maket yapıyormuşsunuz gibi de
+                            düşünebilirsiniz. Özellikle çocuklarla birlikte uğraşabileceğiniz bir hobi
+                            arayışındaysanız 3 boyutlu bir puzzle alıp işe koyulabilirsiniz!<br>Bu konuda
+                            <strong><a href="https://www.urunsec.com/blog/icerik/puzzle-nasil-yapilir">Puzzle Nasıl
+                                    Yapılır? Puzzle stratejileri</a></strong> içeriği size yardımcı olabilir.Puzzle
+                            yapmayı seviyorsanız ve bu konuda kendinize güveniyorsanız, bir de 3D
+                            puzzle’lar yapmayı denemeye ne dersiniz? Bir nevi maket yapıyormuşsunuz gibi de
+                            düşünebilirsiniz. Özellikle çocuklarla birlikte uğraşabileceğiniz bir hobi
+                            arayışındaysanız 3 boyutlu bir puzzle alıp işe koyulabilirsiniz!Puzzle yapmayı seviyorsanız
+                            ve bu konuda kendinize güveniyorsanız, bir de 3D
+                            puzzle’lar yapmayı denemeye ne dersiniz? Bir nevi maket yapıyormuşsunuz gibi de
+                            düşünebilirsiniz. Özellikle çocuklarla birlikte uğraşabileceğiniz bir hobi
+                            arayışındaysanız 3 boyutlu bir puzzle alıp işe koyulabilirsiniz!Puzzle yapmayı seviyorsanız
+                            ve bu konuda kendinize güveniyorsanız, bir de 3D
+                            puzzle’lar yapmayı denemeye ne dersiniz? Bir nevi maket yapıyormuşsunuz gibi de
+                            düşünebilirsiniz. Özellikle çocuklarla birlikte uğraşabileceğiniz bir hobi
+                            arayışındaysanız 3 boyutlu bir puzzle alıp işe koyulabilirsiniz!
+                        </div>
+                    </div>
+                </div>
+                <div class="saccordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#Doğa" aria-expanded="false" aria-controls="collapseThree">
+                            Doğa yürüyüşü
+                        </button>
+                    </h2>
+                    <div id="Doğa" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <img class="bitkifoto" src="resimler/dogayuruyusu.jpg">
+                            <p style="text-align: justify;">Doğa yürüyüşü, tek kelimeyle mükemmel bir hafta sonu
+                                hobisidir, özellikle de yürüyüşlere ve doğayı keşfetmeye özel bir tutkusu olan insanlar
+                                için!</p>
+                            <p style="text-align: justify;">Çalışmalar doğa yürüyüşlerinin <a
+                                    href="https://www.lifehack.org/363786/doctors-agree-hiking-good-for-your-mental-health">beynimize
+                                    nasıl faydalı olduğunu</a> gösteriyor. Ayrıca doğa yürüyüşleri beyninizi stresten,
+                                endişelerden arındırıp şimdiki anınıza odakladığı için üretkenliğinizi de arttırıyor. Ek
+                                olarak da size fiziksel egzersiz ve dayanıklılık sağlıyor.</p> Ayrıca doğa yürüyüşleri
+                            beyninizi stresten,
+                            endişelerden arındırıp şimdiki anınıza odakladığı için üretkenliğinizi de arttırıyor. Ek
+                            olarak da size fiziksel egzersiz ve dayanıklılık sağlıyor. Ayrıca doğa yürüyüşleri beyninizi
+                            stresten,
+                            endişelerden arındırıp şimdiki anınıza odakladığı için üretkenliğinizi de arttırıyor. Ek
+                            olarak da size fiziksel egzersiz ve dayanıklılık sağlıyor. Ayrıca doğa yürüyüşleri beyninizi
+                            stresten,
+                            endişelerden arındırıp şimdiki anınıza odakladığı için üretkenliğinizi de arttırıyor. Ek
+                            olarak da size fiziksel egzersiz ve dayanıklılık sağlıyor. Ayrıca doğa yürüyüşleri beyninizi
+                            stresten,
+                            endişelerden arındırıp şimdiki anınıza odakladığı için üretkenliğinizi de arttırıyor. Ek
+                            olarak da size fiziksel egzersiz ve dayanıklılık sağlıyor.
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </side>
+        <side>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <h2 class="text-center" style="color: black;">Sevdigim Sporlar</h2>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#FUTBOL" aria-expanded="false" aria-controls="flush-collapseOne">
+                            FUTBOL
+                        </button>
+                    </h2>
+                    <div id="FUTBOL" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><img class="sporfoto" src="resimler/futbol.jpg">
+                            Futbol 11’er kişilik iki takım arasında oynanır ve kendine özgü
+                            kuralları vardır. Oyunun amacı, topu rakip kaleye sokmaktır. Topu elle ve kolla oynamak
+                            kesinlikle yasaktır, ama kafa ile ya da kurallara uygun olarak bedenin herhangi bir yeriyle
+                            topa vurulabilir. <br>Yalnızca kaleciler belirlenmiş bir alan içinde topu elle tutabilir.
+
+                            Futbolcular kendi takımının simgesi olan forma giyerler. Her oyuncunun forması üzerinde
+                            farklı bir numara yazılıdır. Yalnızca kaleciler, öbür oyunculardan kolayca ayırt
+                            edilebilmesi için farklı renkte forma giyer. <br>Bütün futbolcular, bu oyun için uygun
+                            biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar.Futbolcular kendi takımının simgesi olan
+                            forma giyerler. Her oyuncunun forması üzerinde
+                            farklı bir numara yazılıdır. Yalnızca kaleciler, öbür oyunculardan kolayca ayırt
+                            edilebilmesi için farklı renkte forma giyer. Bütün
+                            <a href="https://tr.wikipedia.org/wiki/Mill%C3%AE_K%C3%BCme" title="Millî Küme">Millî
+                                Küme</a> adı altında toplanan ve 1937'den 1943'e değin
+                            Maarif Mükafatı, 1944'ten 1951'e değin de Millî Eğitim Kupası olarak anılan ligden sonra
+                            1959'da Millî Lig (bugünkü adıyla <a href="https://tr.wikipedia.org/wiki/S%C3%BCper_Lig"
+                                title="Süper Lig">Süper
+                                Lig</a>) kuruldu.<sup id="cite_ref-RSSSF_1-1" class="reference"></sup> 1959'dan
+                            itibaren düzenlenen <a href="https://tr.wikipedia.org/wiki/S%C3%BCper_Lig"
+                                title="Süper Lig">Millî Lig</a> organizasyonları ve <a
+                                href="https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Kupas%C4%B1" title="">Kupa</a>
+                            müsabakaları ile <a href="https://tr.wikipedia.org/wiki/1._Lig" title="1. Lig">II.</a>
+                            ve <a href="https://tr.wikipedia.org/wiki/2._Lig" title="2. Lig">III.</a> ligler,
+                            Türkiye'de futbolun önde gelen spor dallarından bir
+                            hâline getirdi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#Basketbol" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Basketbol
+                        </button>
+                    </h2>
+                    <div id="Basketbol" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <img class="sporfoto" src="resimler/basketbol.jpg">
+                            11’er kişilik iki takım arasında oynanır ve kendine özgü
+                            kuralları vardır. Oyunun amacı, topu rakip kaleye sokmaktır. Topu elle ve kolla oynamak
+                            kesinlikle yasaktır, ama kafa ile ya da kurallara uygun olarak bedenin herhangi bir yeriyle
+                            topa vurulabilir. Yalnızca kaleciler belirlenmiş bir alan içinde topu elle tutabilir.
+
+                            Futbolcular kendi takımının simgesi olan forma giyerler. Her oyuncunun forması üzerinde
+                            farklı bir numara yazılıdır. Yalnızca kaleciler, öbür oyunculardan kolayca ayırt
+                            edilebilmesi için farklı renkte forma giyer. Bütün futbolcular, bu oyun için uygun biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar.Futbol 11’er kişilik iki takım arasında
+                            oynanır ve kendine özgü
+                            kuralları vardır. Oyunun amacı, topu rakip kaleye sokmaktır. Topu elle ve kolla oynamak
+                            kesinlikle yasaktır, ama kafa ile ya da kurallara uygun olarak bedenin herhangi bir yeriyle
+                            topa vurulabilir. Yalnızca kaleciler belirlenmiş bir alan içinde topu elle tutabilir.
+
+                            Futbolcular kendi takımının simgesi olan forma giyerler. Her oyuncunun forması üzerinde
+                            farklı bir numara yazılıdır. Yalnızca kaleciler, öbür oyunculardan kolayca ayırt
+                            edilebilmesi için farklı renkte forma giyer. Bütün futbolcular, bu oyun için uygun biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar.Bütün futbolcular, bu oyun için uygun
+                            biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#Voleybol" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Voleybol
+                        </button>
+                    </h2>
+                    <div id="Voleybol" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <img class="sporfoto" src="resimler/Voleybol.jpg">
+                            11’er kişilik iki takım arasında oynanır ve kendine özgü
+                            kuralları vardır. Oyunun amacı, topu rakip kaleye sokmaktır. Topu elle ve kolla oynamak
+                            kesinlikle yasaktır, ama kafa ile ya da kurallara uygun olarak bedenin herhangi bir yeriyle
+                            topa vurulabilir. Yalnızca kaleciler belirlenmiş bir alan içinde topu elle tutabilir.
+
+                            Futbolcular kendi takımının simgesi olan forma giyerler. Her oyuncunun forması üzerinde
+                            farklı bir numara yazılıdır. Yalnızca kaleciler, öbür oyunculardan kolayca ayırt
+                            edilebilmesi için farklı renkte forma giyer. Bütün futbolcular, bu oyun için uygun biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar.Futbol 11’er kişilik iki takım arasında
+                            oynanır ve kendine özgü
+                            kuralları vardır. Oyunun amacı, topu rakip kaleye sokmaktır. Topu elle ve kolla oynamak
+                            kesinlikle yasaktır, ama kafa ile ya da kurallara uygun olarak bedenin herhangi bir yeriyle
+                            topa vurulabilir. Yalnızca kaleciler belirlenmiş bir alan içinde topu elle tutabilir.
+
+                            Futbolcular kendi takımının simgesi olan forma giyerler. Her oyuncunun forması üzerinde
+                            farklı bir numara yazılıdır. Yalnızca kaleciler, öbür oyunculardan kolayca ayırt
+                            edilebilmesi için farklı renkte forma giyer. Bütün futbolcular, bu oyun için uygun biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar.Bütün futbolcular, bu oyun için uygun
+                            biçimde
+                            üretilmiş özel ayakkabılar krampon) kullanırlar</div>
+                    </div>
+                </div>
+            </div>
+        </side>
+
+    </aside>
+    <!--hobiler ve spor####-->
+    <!--Tuzla baslangic-->
+    <aside>
+        <side>
+            <div class="con">
+                <h2 class="text-center">YASADIGIM YER</h2><br>
+                <h3 class="text-center">Tuzla/Istanbul</h3>
+
+                Kalekapı Çevresi
+
+                Tarihî süreç içerisinde Orta Anadolu’da görülen Neolitik yaşam biçimi; muhtemelen Çanak Çömleksiz
+                Neolitik (Yeni Taş Çağı) Dönem’in sonlarına ve Çanak Çömlekli Neolitik Dönem’in başlarına doğru İÖ,
+                7000-6000 yıllarında Marmara Bölgesi’nde de görülmeye başlanmıştır. Bu dönemin özelliklerini taşıyan
+                arkeolojik verileri Fikirtepe (Fikirtepe, Temeyne, Tuzla) Evresi’nde görmek mümkündür. Fikirtepe Kültürü
+                olarak adlandırılan ve o dönemde Tuzla Kalekapı yerleşim yerinin de içinde yer aldığı bu kültür, İÖ,
+                6000 yılından itibaren yaklaşık 1000 yıllık bir zaman dilimini kapsamaktadır. 1
+
+                Kalekapı çevresinde 1958 yılında Tuzla İlkokulunun temellerinin kazılması sırasında rastlanılan Neolitik
+                Dönem’e ait arkeolojik bulgular vasıtasıyla Tuzla’nın bilinen en eski tarihi ile ilgili bilgiler elde
+                edilmiştir. 2
+                Aynı okulun bahçesinde 1965 yılında yapılan arkeolojik araştırmada ise yine aynı döneme ait ağırşak ve
+                çanak çömlek parçaları bulunmuştur. El yapımı olan keramiklerin; yüzeyleri açkılı, kum ve mika katkılı,
+                içleri astarlı, koyu renkli, bazılarının ise deve tüyü renkte oldukları tespit edilmiştir. Keramik
+                parçaları birleştirildiği zaman geniş ağızlı, boyunlu, boyunsuz, ağza doğru daralan, kenarlı, dudaklı ve
+                düz dipli kaplar elde edilmektedir.
+
+                Düz bir alan olan Kalekapı’da mimarî bir tarza rastlanmadığı ve dal örgü biçiminde kulübelerin barınak
+                olarak kullanıldığı tahmin edilmektedir. Yerleşim yerinde bulunan hayvan kemiklerine bakıldığı zaman
+                Kalekapı sakinlerinin “karma ekonomik” model olarak tanımlanan bir beslenme düzenleri vardır. Yoğun
+                olarak balıkçılık yaptıkları, kıyı kesimlerden midye topladıkları, yaban sığırı avladıkları ve
+                evcilleştirdikleri koyun ve keçilerin etlerini yedikleri; ayrıca çevredeki yenilebilir yabani
+                yemişlerden de yoğun olarak beslendikleri anlaşılmaktadır.Tuzla ve yöresinin ilk yerleşenlerinin kimler
+                olduklarını şu anda kesin olarak bilmemekle beraber İÖ, 1200-700 yılları arasında Firig kavmine mensup
+                Bebrikler olduğu tahmin edilmektedir. Bu nedenle Marmara Denizi’nin kuzey kesimlerine Bebrikya
+                deniyordu. Kadıköy-Tuzla sahil hattı Bebriklerin yerleşim alanı içinde kalmakla beraber, Bebrikler bu
+                alanda siyasî bir birlik oluşturamadılar.Akritas-Tuzla
+
+                Osmanlı Devleti Dönemi öncesinde Tuzla Burnu’na Akritas deniyordu. İlk Çağ yazarlarından Menippos,
+                Artemidoros ve Ptolemeos; burun anlamına geldiği için Akritas’ın, sadece Tuzla Burnu’na verilen bir ad
+                olduğunu belirtmişlerdir. Jules Pargoire ise Akritas’ın sadece Tuzla Yarımadası’nın en uç noktası
+                değil, Tuzla Yarımadası’nın tamamına dendiğini sağlam delillerle ortaya koymuştur.
+
+                Adı geçen bölgede, kuruluş tarihini tam olarak bilemediğimiz, ancak VI. yy’da, bugünkü Tuzla’nın yerinde
+                Akritas adında bir köyün varlığı bilinmektedir.
+
+                XVIII. yy’la kadar bu adla anılan köy, Osmanlı Devleti yönetimine geçtikten sonra Niğde, Yiğitli ve
+                Tuzla adlarıyla anılmıştır. Günümüzde ise Tuzla adı kullanılmaktadır.Roma ve Bizanslılar Dönemi
+
+                Bitinya Kralı IV. Nikomedes’in vasiyeti üzerine Bitinya’nın Roma’ya bırakılması üzerine Tuzla ve yöresi
+                İÖ,74 yılından itibaren artık Roma topraklarının bir parçasıydı. Roma’nın 395 yılında Doğu ve Batı Roma
+                olarak ikiye ayrılmasından sonra Tuzla ve yöresi yaklaşık on bir asır Doğu Roma’nın egemenliğinde kaldı.
+
+                Daha sonraları Doğu Roma İmparatorluğu, Bizans İmparatorluğu olarak adlandırıldı. Hristiyanlığın
+                Anadolu’da yayılmasının ardından Tuzla’da, Bizanslılar Dönemi’nde Andreas, Hagios Tryphon, Theotokos,
+                Hagios Demetrias manastırları; Değirmenaltı Kilisesi, Hagia Glikeria, Hagios Taksiarhis, Hagios
+                Theodoros……kiliseleri adlarında çok sayıda dinî yapı yapılmıştır. Bu yapılardan sadece İncir Adası’ndaki
+                (Bugünkü adıyla Koçun Adası) Glikeria Kilisesi’nin bazı bölümleri koruna bilmiştir.11 Bir de
+                Bizanslılardan günümüze kalan Manastır mevkiinde Hagios Demetrios su kuyusu bulunmaktadır. Tuzla’nın
+                Türk Egemenliğine Geçişi
+
+                Tuzla’nın, Türklerin egemenliğine ilk olarak geçişi Anadolu Selçuklu Sultanı Süleyman Şah ile Bizans
+                İmparatoru Alexios Komnenos arasında 1081 yılında yapılan Dragos Suyu Anlaşması ile gerçekleşmiştir. Bu
+                anlaşmayla Tuzla ve yöresi Anadolu Selçuklu Devleti’ne bırakıldı. Kısa bir süre sonra Bizanslıların
+                eline geçen Tuzla ve yöresi, 1329 yılında Orhan Bey zamanında yapılan Pelekanon Savaşı sonucunda tekrar
+                Osmanlı Devleti yönetimine geçti. 399 yılında Bizans İmparatoru Manuel, İzmit’e kadar olan yerleri
+                Osmanlılardan geri alınca Tuzla bir daha Bizanslıların egemenliğine girdi. Ondan sonraki yıllarda
+                birkaç kere Osmanlılarla Bizanslılar arasında el değiştiren Tuzla,1453 yılında İstanbul’un alınışından
+                sonra sürekli olarak Osmanlı yönetiminde kaldı. Geliri; Çelebi Mehmet Dönemi’nde yapılan Bursa’daki
+                Yeşil Külliye’ye vakfedilen Tuzla14, Cumhuriyet Dönemi’ne kadar bu vakfa bağlı vakıf köyü olarak
+                varlığını sürdürdü.
+
+                Tuzla; Bizanslılar Dönemi’nde Hristiyan Rumların, Osmanlılar Dönemi’nde ise Hristiyanlarla birlikte az
+                sayıda Müslümanların yaşadığı bir köydü. 1845 yılında Benanin, Aya İstrait, Aya Yani, Aya Todari, Aya
+                Dimitri adında beş mahallede 234 hane Rum; buna karşılık bir mahallede 37 hane Müslüman yaşıyordu. Bu
+                durum 30 Ocak 1923 yılında Türkiye ile Yunanistan arasında imzalanan “Nüfus Mübadelesi Anlaşması”na
+                kadar sürdü. Bu anlaşma gereğince Tuzla’daki Rum nüfus Yunanistan’a, Yunanistan’ın çeşitli yörelerinde
+                yaşayan Türklerin bir bölümü ise Tuzla’ya yerleştirildi. Bu tarihten itibaren Tuzla’da sadece Türkler
+                ikamet etmeye başladılar.Tuzla’nın Nüfusu
+
+                Tarihî süreç içerisinde konjonktürel duruma göre Tuzla’nın nüfusu sürekli değişim göstermiştir. 1530’da
+                587; 1747’de 1025; 1764’te 112515; 1840’ta 98516; 1845’te 135517; 1912’de 650 18 tahmini nüfusu
+                bulunmaktaydı. 1923 yılında Yunanistan ile yapılan nüfus mübadelesi sonucunda muhtemelen Tuzla’nın
+                nüfusu 1200’e yükselmiştir. 1935 yılına gelindiği zaman 2414 nüfusu bulunan Tuzla, 2011yılında 103.939
+                erkek, 93.291 kadın olmak üzere toplam 197.230 nüfusa ulaşmıştır.Tuzla’nın İdarî Statüsünde Yapılan
+                Değişmeler
+
+                Gerek Osmanlılar ve Cumhuriyet Dönemi’nde günün şartlarına göre Tuzla’nın idarî statüsünde zaman zaman
+                değişikliklere gidildi:
+
+                1530 yılında Anadolu Eyaleti, Kocaeli Livası, Gebze kazasına20; 1533 yılında Cezayir-i Bahr-i Sefid
+                (Akdeniz Adaları ) Eyaleti, Kocaeli Livası, Gebze Kazasına; XII.yy’da Üsküdar kazası, Gebze bucağına;
+                1711 yılından itibaren yaklaşık yirmi yıl Adalar bucağına; 1743’te tekrar Gebze bucağına bağlanmış ve bu
+                statü 1831 yılına kadar devam etmiştir.21 1849 yılında ise Kastamonu Eyaleti, Kocaeli Sancağı, Gebze
+                kazasına; 1856-1867 yıllarında Hüdavendigâr (Bursa) Eyaleti, Kocaeli Livası, Gebze bucağına;22 1867
+                yılında İstanbul vilâyeti, Kartal kazasına, 1923’te ise Kartal ile birlikte Üsküdar vilâyetine
+                bağlanmıştır.23
+
+                
+
+
+
+            </div>
+        </side>
+   </aside> 
+   <aside>
+        <side>
+            <div class="resim">
+                <img class="tuzlaresim" title="Has Ekmek Fırını" src="resimler/tuzla1.jpg">
+            </div>
+        </side>
+        <side>
+            <div class="resim">
+                <img class="tuzlaresim" title="Has Ekmek Fırını" src="resimler/tuzla2.jpg">
+            </div>
+        </side>
+        <side>
+            <div class="resim">
+                <img class="tuzlaresim" title="Has Ekmek Fırını" src="resimler/tuzla3.jpg">
+            </div>
+        </side>
+
+        <side>
+            <div class="resim">
+                <img class="tuzlaresim" title="Has Ekmek Fırını" src="resimler/tuzla4.jpg">
+            </div>
+        </side>
+        <side>
+            <div class="resim">
+                <img class="tuzlaresim" title="Has Ekmek Fırını" src="resimler/tuzla4.jpg">
+            </div>
+        </side>
+    </aside>
+
+
+
+
+
+
+
+    <!--Tuzla####-->
+    <!--FOOTER BASLANGIC-->
+    <aside class="footeraside">
+
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                            lore
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </aside>
+    <!--FOOTER####-->
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+  -->
 </body>
 
 </html>
