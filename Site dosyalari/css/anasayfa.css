@@ -1,5 +1,4 @@
-.footeraside
-{
+.footeraside {
     position: relative;
     width: 100%;
     display: block;
@@ -7,76 +6,94 @@
     float: left;
     bottom: auto;
 }
-.fotoside
-{
+
+.fotoside {
     position: relative;
     width: auto;
     display: block;
-    background-color: #15ff00;
+    background-color: #ffee00;
     /*margin: 1%;*/
     float: left;
 }
-.fotoaside
-{
+
+.fotoaside {
     position: relative;
     margin-left: 25px;
 }
-.bitkifoto
-{
+
+.bitkifoto {
     height: 120px;
     width: 240px;
     float: left;
 }
-.sporfoto
-{
+
+.sporfoto {
     height: 120px;
     width: 240px;
     float: right;
 }
-.accordion-body
-{
+
+.accordion-body {
     background-color: aqua;
-}
-.accordion-button
-{
-    background-color: aqua;
-}
-button
-{
-    background-color: aqua;
-}
-.hakkimda
-{
-	background-color:#deec1c;
-    position: relative;
-    border-top: -25px;
-}
-.hakkimdaicon
-{
-	color:#212121;
-	position:relative;
-	top:-65px;
-	font-size:50px;
-	border:10px solid #deec1c;
-	background-color:#deec1c;
 }
 
-.hobisporaside
-{
-    min-height: 730px;
+.accordion-button {
+    background-color: aqua;
 }
-side>.resim>img{
+
+button {
+    background-color: aqua;
+}
+
+.hakkimda {
+    background-color: #deec1c;
+    position: relative;
+    top: 30px;
+}
+
+.hakkimdaicon {
+    color: #212121;
+    position: relative;
+    top: -65px;
+    font-size: 50px;
+    border: 10px solid #deec1c;
+    background-color: #deec1c;
+}
+
+.hobisporaside {
+    min-height: 730px;
+    margin-top: 3%;
+}
+
+side>.resim>img {
     width: 100%;
     height: 100%;
     float: left;
     margin-right: 10px;
 }
-.tuzlaresim
-{
-    height: 800px;
+
+.tuzlaresim {
+    height: 450px;
+    width: 450px;
 }
-@media (min-width:855px) and (max-width:1580px){
-    .buyume{
-      min-height: 1200px;
+
+@media (min-width:855px) and (max-width:1400px) {
+    .buyume {
+        min-height: 1200px;
     }
-  }
+}
+
+.tuzla {
+    width: 98%;
+    display: block;
+    background-color: #00e1ff;
+    margin: 1%;
+    float: left;
+    border-style: dashed;
+}
+side>.con>img{
+    width: 120px;
+    height: 240px;
+    float: left;
+    margin-right: 10px;
+}
