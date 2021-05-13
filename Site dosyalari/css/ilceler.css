@@ -1,0 +1,77 @@
+side>.con>img {
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width:1200px) {
+    .ilceler {
+        width: 45%;
+        height: 465px;
+        display: block;
+        background-color: #00ff55;
+        margin: 2%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .ilceler2 {
+        width: 45%;
+        height: 400px;
+        display: block;
+        background-color: #00ff55;
+        margin: 2%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width:871px) {
+    .ilceler3 {
+        width: 90%;
+        height: 400px;
+        display: block;
+        background-color: #00ff55;
+        margin: 5%;
+        float: none;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    side>.con>img {
+        width: 400px;
+        height: 200px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    side>.con>img {
+        width: 100%;
+    }
+}
+
+.aside1 {
+    min-height: 900px;
+    float: right;
+    width: auto;
+}
+
+.aside2 {
+    min-height: 900px;
+    float: right;
+    width: auto;
+}
+
+.aside3 {
+    min-height: 450px;
+    float: right;
+    width: auto;
+}
+@media (min-width:320px) and (max-width:1073px) {
+    .aside1 {
+        width: auto;
+        
+    }
+}
