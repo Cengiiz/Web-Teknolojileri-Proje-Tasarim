@@ -1,0 +1,38 @@
+.resimaside
+{
+    width:85%;
+    height: 850px;
+    float: auto;
+    margin-bottom: 5%;
+    background-color: #00ff55;
+}
+.resimaside>side>div>img
+{
+    width: 300px;
+    height: 350px;
+    float: auto;
+}
+.conn>img
+{
+    width: 300px;
+    height: 350px;
+}
+.resimside{
+    width: 290px;
+    height: 350px;
+
+}
+.yaziaside
+{
+    width: 85%;
+    height: auto;
+    background-color: #00ff55;
+    float: auto;
+}
+.yaziside{
+    width: auto;
+}
+.con{
+    padding: 0%;
+    border:2px;
+}
