@@ -1,0 +1,19 @@
+.birinci{
+    margin-top: 5%;
+}
+.icyazi{
+    margin-top: 2%;
+}
+.resimler{
+    width: 300px;
+    height: 150px;
+}
+.resim1,.resim2{
+    margin-top: 2%;
+}
+@media only screen and (max-width:870px){
+    .icyazi{
+        min-width: 98%;
+
+    }
+}
