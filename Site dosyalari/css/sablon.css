@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: helvetica;
     line-height: 2;
-    background-color: rgb(0, 255, 85);
+    background-color: #dee211be;
     padding-top:50px;
 
 }
@@ -21,25 +21,20 @@ body{
 }   
 aside{
     width: auto;
-    max-height: auto;
+    height: auto;
     display: block;
     margin: 0 auto;
-    border-style: dashed;
+   /* border-style: dashed;*/
 }
 side{
     width: 48%;
     display: block;
-    background-color: #00e1ff;
+    background-color: #eff3109a;
     margin: 1%;
     float: left;
-    border-style: dashed;
+    /*border-style: dashed;*/
 }
-side>.con>img{
-    width: 120px;
-    height: 240px;
-    float: left;
-    margin-right: 10px;
-}
+
 @media only screen and (max-width:1200px){
     side>.con>img{
         width: 100%;
@@ -64,7 +59,6 @@ side>.con>img{
     height: 22%;
     width: auto;
     display: block;
-    margin: auto;
     float: left;
     bottom: auto;
     margin: 0 auto;
@@ -74,4 +68,7 @@ aside>footer>.side
 {
     border-right: 5px;
     border-left: 5px;
+}
+.dropdown-menu{
+    background-color: rgba(236, 33, 26, 0.363);
 }
