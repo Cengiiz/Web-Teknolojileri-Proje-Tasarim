@@ -2,152 +2,1552 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/sablon.css">
-    <title>Hello, world!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/sablon.css">
+  <link rel="stylesheet" href="css/turizm.css">
+  <title>Hello, world!</title>
 </head>
 
 <body>
-    <!--MENU BASLANGICI-->
-    <nav class="navbar navbar-expand-xl navbar-light  fixed-top" style="background-color: rgba(236, 33, 26, 0.363)">
-      <div class="container-fluid">
-          <a style="color: white;" class="navbar-brand" href="#">G201210376</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a style="color: white;"class="nav-link active" aria-current="page" href="Anasayfa.html">Cengizhan KOCAL</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          RIZE
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a style="color: white;" class="dropdown-item" href="Rizegenel.html">Genel Bilgiler</a></li>
-                          <li><a style="color: white;"class="dropdown-item" href="kultur.html">Kultur</a></li>
-                          <li><a style="color: white;"class="dropdown-item" href="turizm.html">Turizm</a></li>
-                      </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a style="color: white;"class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          Ilgi Alanlarim
-                      </a>
-                      <ul style="color: white;"class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a style="color: white;"class="dropdown-item" href="#">E-SPOR</a></li>
-                          <li><a style="color: white;"class="dropdown-item" href="#">AKVARYUM</a></li>
-                          <li><a style="color: white;"class="dropdown-item" href="#">ARANIYOR</a></li>
-                      </ul>
-                  </li>
-              </ul>
-          </div>
+  <!--MENU BASLANGICI-->
+  <nav class="navbar navbar-expand-xl navbar-light  fixed-top" style="background-color: rgba(236, 33, 26, 0.363)">
+    <div class="container-fluid">
+      <a style="color: white;" class="navbar-brand" href="#">G201210376</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link active" aria-current="page" href="Anasayfa.html">Cengizhan
+              KOCAL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              RIZE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a style="color: white;" class="dropdown-item" href="Rizegenel.html">Genel Bilgiler</a></li>
+              <li><a style="color: white;" class="dropdown-item" href="kultur.html">Kultur</a></li>
+              <li><a style="color: white;" class="dropdown-item" href="turizm.html">Turizm</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Ilgi Alanlarim
+            </a>
+            <ul style="color: white;" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a style="color: white;" class="dropdown-item" href="#">E-SPOR</a></li>
+              <li><a style="color: white;" class="dropdown-item" href="#">AKVARYUM</a></li>
+              <li><a style="color: white;" class="dropdown-item" href="#">ARANIYOR</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
+    </div>
   </nav>
 
-    <!--MENU BITISI-->
+  <!--MENU BITISI-->
+
+  <!--Kartlar baslangic-->
+  <br>
+  <div>
+    <div class="row w-100 text-center">
+      <h2>Turizm Değerleri</h2>
+      <div class="col ">
+        <div class="card card1">
+          <img src="resimler/akarsu1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Akarsular</h5>
+
+            <div class="modal fade" id="akarsubilgi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Akarsular</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Rize’de İyidere, Taşlıdere, Büyükdere, Hemşin, Fırtına ve Çağlayan dereleri ismi en çok bilinen
+                      akarsular arasında yer alır. Bu derelerin bazıları akarsu sporları( Kano, Rafting) için gerekli
+                      debi
+                      rejim miktarına sahiptir. Bu büyük akarsular dışında irili ufaklı birçok dere bulunur. Kaçkar
+                      Dağları'nın Karadeniz’e bakan yamaçlarından çağlayan derelerin birleşiminden oluşan Fırtına
+                      Deresi,
+                      debisi en yüksek olan ve hızlı akan bir deredir ve bu özelliği ile kentteki akarsuların en
+                      önemlisi
+                      ve bilinenidir. Diğeri ise kaynağını Ovit yaylasından alan birçok derenin birleşmesi ile oluşan
+                      İyidere’dir ve debisi yüksek olan birkaç dereden biridir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#akarsusayfa2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="akarsusayfa2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/akarsu2.png" class="card-img-top" alt="...">
+                    <img src="resimler/akarsu3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#akarsubilgi" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#akarsubilgi" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card card1">
+          <img src="resimler/selaleler3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Şelaleler</h5>
+
+            <div class="modal fade" id="Şelaleler" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Şelaleler</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Rize farklı noktalarında yükseklerden akan şelaleleriyle doğa harikası manzaralar sunar. Bölgede
+                      yapacağınız yürüyüşlere huzur verici sesi ve heybetiyle eşlik eden bu şelalelerden en bol suya
+                      sahip olanı Kaçkar Dağları Milli Parkı içerisinde yer alan Palovit Şelalesi’dir. Çayeli
+                      ilçesindeki Ağaran Şelalesi mutlaka mola verilmesi gereken duraklardandır. Ayrıca Çamlıhemşin ile
+                      Ayder Yaylası arasındaki Tar Deresi’nden birçok küçük düşümlü şelale akar. Bunların en uzunu ve
+                      seyrine doyum olmayanı Bulut Şelalesi’dir. Üç kademeli olarak yaklaşık 250 m yükseklikten akar.
+                      Ayder Turizm Merkezi’ndeki Gelintülü Şelalesi de en bilinen ve en çok fotoğrafı çekilen
+                      şelalelerdendir, 23 m yüksekten dökülüp Fırtına Deresi'ne kavuşur. Çamlıhemşin’e 34 km uzaklıkta
+                      bulunan Topluca Köyü’ndeki Çoponi Şelalesi bir başka tabiat harikasıdır. Ayrıca Manle, Cimil,
+                      Eğvane şelaleleri de görülmeye değer yerlerdendir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#Şelaleler2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Şelaleler2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/selaleler1.png" class="card-img-top" alt="...">
+                    <img src="resimler/selaleler2.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Şelaleler" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Şelaleler" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/goller1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Göller</h5>
+            <div class="modal fade" id="Göller" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Göller</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Kentin dağlık kesimlerinde 2000 m irtifadan itibaren buzul aşındırması ve biriktirmesi sonucu
+                      oluşmuş küçük alanlı göller bulunur. En büyükleri 2950 m yükseklikte bulunan Ambar Gölü, 2900 m
+                      yükseklikteki Büyükdeniz Gölü ve 2778 m bulunan Öküzyatağı Gölü’dür. Bunların bir kısmı buzyalağı,
+                      bir kısmı da moren (buzultaş) set gölüdür. Ovit, Mezovit, Karadeniz, At Gölü, Kapılı Göller, Tatos
+                      Gölleri, Aksu ve Şarpinovit önemli göllerdendir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Göller2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Göller2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/goller2.png" class="card-img-top" alt="...">
+                    <img src="resimler/goller3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#Göller" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Göller" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/yaylalar1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yaylalar</h5>
+            <div class="modal fade" id="Yaylalar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Yaylalar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Kaçkar Dağları’nın eteklerinde kalabalıktan uzak kalıp, doğanın eşsiz güzellikleriyle baş başa
+                      kalmak için ideal çok sayıda yayla bulunur. Handüzü, Çağrankaya, Vaşa, Petran, Demirkapı (Homeze),
+                      Sivrikaya, Anzer, Ovit, Gölyayla, Sal, Pokut, Hazindağ, Samistal, Golezana, Palovit, Elevit,
+                      Amlakit, Çat, Verçenik, Hacivanak, Aşağı Kavron, Yukarı Kavron, Ambarlı, Kito bunlardan
+                      birkaçıdır. Yayla hayatı Haziran ayının başından Eylül ayının ilk haftasına kadar sürüp giden üç
+                      aylık bir dönemi kapsar. Yaylalar insanların birbirini bereketi simgeleyen gülsuyu ile ıslatması
+                      anlamına gelen ve coşkuyla kutlanan bağbozumu bayramı “Vartavor” şenlikleriyle ünlüdür. Horon ve
+                      sisli manzaralar, yayla yaşamının vazgeçilmezlerindendir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#Yaylalar2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Yaylalar2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/yaylalar2.png" class="card-img-top" alt="...">
+                    <img src="resimler/yaylalar3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Yaylalar" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Yaylalar" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/millipark2.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Milli Parklar
+            </h5>
+            <div class="modal fade" id="MilliParklar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Milli Parklar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Çamlıhemşin İlçesi sınırları içerisinde yer alan Kaçkar Dağları Milli Park alanına, ilçe
+                      merkezinden 16 km’lik bir karayolu ile ulaşılabilir. Batısındaki Fırtına Deresi ve doğusundaki
+                      Hemşin Deresi zengin floraya sahiptir. Bu bitki örtüsü karstik (kolay çözülebilen arazi yapısı)
+                      flora özelliğinde olup, gerek alt flora gerek üst flora endemik türleri içerir. Türkiye’de orman
+                      gülünün 3000 m’ye ulaştığı tek yer burasıdır.Türkiye’de Pleistosen’e (buzul çağı) ait buzul
+                      izleriyle beraber aktüel buzlaşmanın birlikte görüldüğü ender yerlerden biri de Kaçkar
+                      Dağları’dır. Bu sahada buzullarla birlikte buzul gölleri, buzul vadileri, sirkler ve set gölleri
+                      bulunur. Genel olarak granit ve granitik kayaçlardan meydana gelen jeolojik yapı üzerinde Alp
+                      orojenezinin (3.Jeolojik Zaman) derin etkileri görülmektedir. Kaçkar Dağları, yayla yaşam kültürü
+                      ve sosyal yaşantısına ait bir değer olarak ön plana çıkar. Başta Fırtına Deresi ve Hemşin Deresi
+                      olmak üzere bitki ve hayvan çeşitliliğinin yoğunlaştığı bütün vadiler görülmeye değer
+                      niteliktedir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#MilliParklar2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="MilliParklar2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/millipark3.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/millipark1.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#MilliParklar" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#MilliParklar" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/kaplica1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kaplıcalar</h5>
+            <div class="modal fade" id="Kaplıcalar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Kaplıcalar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Kentin dağlık kesimlerinde 2000 m irtifadan itibaren buzul aşındırması ve biriktirmesi sonucu
+                      oluşmuş küçük alanlı göller bulunur. En büyükleri 2950 m yükseklikte bulunan Ambar Gölü, 2900 m
+                      yükseklikteki Büyükdeniz Gölü ve 2778 m bulunan Öküzyatağı Gölü’dür. Bunların bir kısmı buzyalağı,
+                      bir kısmı da moren (buzultaş) set gölüdür. Ovit, Mezovit, Karadeniz, At Gölü, Kapılı Göller, Tatos
+                      Gölleri, Aksu ve Şarpinovit önemli göllerdendir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Kaplıcalar2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Kaplıcalar2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/kaplica2.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/kaplica3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#Kaplıcalar" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Kaplıcalar" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/magaralar1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mağaralar</h5>
+            <div class="modal fade" id="Mağaralar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Mağaralar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      İyidere İlçesi Çiftlik Köyü'nde bulunan Pileki Mağarası, Karadeniz’e özgü hamsikoli (hamsili
+                      ekmek) ve mısır ekmeği pişirmek için kullanılan pileki taşının çıkarılması ile oluşan yapay bir
+                      mağaradır. Binlerce yıldır yapılan bu işlem sonucunda oluşan mağara, girişte iki büyük alan,
+                      sonrasında ise birçok tünelden meydana gelmiştir. İçerisinde kuyular ve göller mevcuttur.
+                      Günümüzde İyidere Kaymakamlığı tarafından ışıklandırılarak çeşitli düzenlemelerle ziyarete
+                      açılmıştır.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Mağaralar2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Mağaralar2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/magaralar2.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/magaralar3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn  btn-primary" data-bs-target="#Mağaralar" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Mağaralar" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/daglar1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dağlar</h5>
+            <div class="modal fade" id="Dağlar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Dağlar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Rize'nin dağlık kesiminde; nehirlerle kesilen vadi sistemleri, dik tepeler ve buralardan dökülen
+                      şelaleler, Kaçkar dağ silsilesi eteklerinde yaylalar ve yüksek rakımlarda buzul gölleri
+                      bulunmaktadır. Doğu Karadeniz dağ sıraları yüksek zirveleriyle amatör ve profesyonel dağcılık
+                      sporu için uygun potansiyele sahiptir. Bu sıradağların en yüksek zirvesi olan Kaçkar ( 3937 m),
+                      Türkiye’nin 4. en yüksek dağıdır ve kuzey yüzünde biri Türkiye’nin 3. en büyüğü olan iki büyük
+                      buzul kütlesine sahiptir. Rize'nin Erzurum-Artvin sınırını oluşturan Doğu Karadeniz Dağları
+                      içerisinde Verçenik Dağı ( 3709 m), Bulut Dağı (3562 m) ve Altıparmak Dağı (3492 m) gibi yüksek
+                      zirveler bulunmaktadır. Rize dağları ayrıca farklı zorluk derecelerinde yürüyüş parkurlarıyla doğa
+                      yürüyüşü, bitki ve hayvan gözlemleme, kar yürüyüşü, heliski gibi birçok alternatif turizm çeşidi
+                      için elverişli olanaklara sahiptir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Dağlar2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Dağlar2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/daglar2.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/daglar3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Dağlar" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Dağlar" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/vadiler2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vadiler</h5>
+            <div class="modal fade" id="Vadiler" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Vadiler
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Rize'nin yüksek dağlık kesiminden doğan akarsular aktıkları bölgelerde derin vadiler açarak denize
+                      ulaşırlar. Bitki, hayvan çeşitliliği ve her mevsim kendine has doğal güzellikleri ile Rize
+                      vadileri doğa yürüyüşü ve fotoğrafçılığı, bitki-hayvan gözlemleme, kampçılık gibi turistik
+                      aktiviteler için uygun olanaklara sahiptir. Fırtına, Senoz, İyidere, Çat, Taşlıdere, Hemşin ve
+                      Melyat Vadileri en bilinenleridir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Vadiler2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Vadiler2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/vadiler1.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/vadiler3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Vadiler" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#Vadiler" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card1">
+          <img src="resimler/mesire1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <h5 class="card-title">Mesire Yerleri</h5>
+            <div class="modal fade" id="MesireYerleri" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Mesire Yerleri
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Merkeze 16 km uzaklıkta bulunan İyidere İlçesi Sarayköy Plajı, 20 km uzaklıkta Çayeli Aile Plajı,
+                      Pazar ve Fındıklı İlçeleri'nde bulunan plajlar ile kent merkezine bağlı Çiftekavak ve Alipaşa
+                      Plajları yaz mevsiminde turistlerin ve yerel halkın ilgisini çekmektedir.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#MesireYerleri2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="MesireYerleri2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/mesire2.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/mesire3.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#MesireYerleri" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn1 btn-primary" data-bs-toggle="modal" href="#MesireYerleri" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row w-100 text-center">
+    <h2>Turizm Türleri</h2>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/termal1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Termal Turizm</h5>
+          <div class="modal fade" id="Termal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Termal Turizm
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Rize yeraltı su kaynakları açısından hayli şanslı bir kenttir. Çeşitli hastalıkların tedavisinde
+                    alternatif bir yöntem olarak tercih edilen kaplıcaları ve içmeleri ile Termal turizmde önemli paya
+                    sahip durumdadır. Kaynakların dağlık bölgede oluşu ve etraflarındaki doğal güzelliklerle birlikte
+                    ayrı bir değere sahiptirler. Ayder Kaplıca Fizik Tedavi ve Rehabilitasyon Merkezi Tesisleri 55o C
+                    sıcaklıktaki renksiz, kokusuz, berrak sularıyla; bugün Ridos Otel bünyesinde bulunan İkizdere
+                    Kaplıcası ise biri 70 o C diğeri 72 o C sıcaklıktaki iki kaplıcası ile romatizmal hastalıklar ve
+                    eklem ağrılarında tamamlayıcı tedavi olarak tercih edilmektedir ve tüm hizmet olanaklarına sahip iki
+                    büyük termal merkez konumundadır. Kentte ayrıca içmeler de bulunmaktadır: Suyunun mide bağırsak
+                    hastalıklarına, böbrek rahatsızlıklarına ve romatizmal rahatsızlıklara iyi geldiği düşünülen, kent
+                    merkezine 20 km mesafede bulunan Andon İçmesi, kokusuz ve berrak suyunun böbrek taşı
+                    rahatsızlıklarına iyi geldiği bilinen Şimşirli İçmesi ve Rize – İkizdere yol güzergahındaki Çayırlı
+                    Maden suyu kentteki içmeler arasındadır.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#Termal2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Termal2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/termal2.png" class="card-img-top kartresim" alt="...">
+
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#Termal" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#Termal" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/yaylalart1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Yaylalar</h5>
+          <div class="modal fade" id="yaylalar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Yaylalar
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                  <p>
+                    Ayder Yaylası : <br>
+
+                    Bugün Rize’nin en popüler merkezi durumunda olan Ayder, Çamlıhemşin İlçesi’nin 19 km
+                    güneydoğusundadır. 1218 m rakıma sahip olup, Fırtına Deresi’nin sesi içinde metrelerce yüksekten
+                    akan Gürgendibi ve Gelintülü Şelalaeri’ne yürüyüş mesafesinde ve diğer görülmeye değer pek çok yerin
+                    geçiş noktası konumundadır. Kaçkar Dağları’na kuzey yönünden yapılan tırmanışların başlangıç
+                    noktasıdır. Yaylada bungalovdan tipik yayla evi konseptine, aile pansiyonundan otele pek çok
+                    konaklama seçeneği mevcuttur. Her türlü alt yapı hizmeti tamamlanmış olan yayla, tatil kasabası
+                    görünümündedir. Zengin flora ve faunasının yanısıra kaplıcası da ünlüdür, çam ormanları ve Kaçkar
+                    manzarasının tam ortasındadır. Ayder Balı da yaylada tadına bakılması gereken lezzetlerdendir.
+                    <br>
 
 
-  <aside class="side">
-    <side>
-      <div class="con">
-        <img src="resimler/anarize1.jpg">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos error quaerat! Hic cupiditate
-        molestiae possimus voluptatibus ipsum, nihil perspiciatis vero atque minus delectus deleniti quos quaerat
-        expedita quidem.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, omnis ut optio consequatur officia
-        laborum maxime aut voluptatibus impedit quidem distinctio velit quam nobis accusantium hic placeat tempora illo
-        nisi?
-      </div>
-    </side>
-    <side>
-      <div class="con">
-        <img src="resimler/anarize2.jpg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequatur natus nam quidem perspiciatis
-        quisquam rerum atque itaque debitis provident neque, ut recusandae, animi doloribus. Placeat molestiae excepturi
-        unde consequuntur?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam ducimus modi deleniti expedita,
-        assumenda accusantium architecto beatae, a officia hic rem, labore placeat ratione! Optio est cupiditate dolor
-        eius.
-      </div>
-    </side>
-    <side>
-      <div class="con">
-        <img src="resimler/anarize3.jpg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo impedit, quibusdam accusamus corrupti odit aliquid,
-        eius animi laudantium similique, ullam ab cum quod molestiae. Quia beatae modi atque dolorum optio.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam, nam obcaecati provident officia minima
-        alias consequatur, repellendus non omnis dignissimos ut, voluptatum esse a molestias ab facilis. Nam, quisquam.
-      </div>
-    </side>
-    <side>
-      <div class="con">
-        <img src="resimler/ardesen.jpg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sed deleniti nesciunt temporibus eligendi
-        asperiores, dolore nemo ut hic tempore voluptatum deserunt eum quo est assumenda nisi veniam iste? Aperiam!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam culpa ut sapiente amet eligendi voluptatum
-        necessitatibus quisquam, odio quod. Nemo cum vero officia dignissimos provident ducimus accusamus id. Molestias,
-        iste.
-      </div>
-    </side>
+                    Handüzü Yaylası :<br>
 
+                    Güneysu İlçe merkezine 16 km uzaklıkta olan yayla 1790 m yüksekliktedir. Otantik özelliğini yitirmiş
+                    bir yayladır. Merkeze yakın olması nedeniyle çok gelişmiş, kolay ulaşılabilir olmasıyla popüler
+                    olmuş büyük bir yayladır. Bu yayladan güney ve güneybatı yönündeki pek çok yaylaya giden yollar
+                    geçmektedir
+
+                    <br>
+
+                    Çağırankaya Yaylası :<br>
+
+                    İkizdere ilçesinde, 2392 m yüksekliktedir. Rize’nin en büyük yaylalarından biridir. İkizdere –
+                    Çayeli – Güneysu – Çamlıhemşin güzergahlarından gelen yolların birleştiği ana merkezdir. Yaylada
+                    yoğun şekilde betonlaşma vardır. Yaz aylarında yoğun nüfusa sahiptir.
+
+
+                    <br>
+                    Vaşa Yaylası :<br>
+
+                    İkizdere ilçesinde 2643 m yükseklikte, mimari olarak tüm otantik özelliklerini koruyan aynı zamanda
+                    hayvancılık ve yaylacılık faaliyetlerinin yürütüldüğü bir yayladır. Hakim konumu ve yükseltisi
+                    sayesinde önemli bir manzara noktasıdır.
+
+
+                    <br>
+                    Petran Yaylası :<br>
+
+                    Anzer yaylası yolu üzerindeki 'Kamanın Dibi' mevkinden ayrılarak ulaşabileceginiz yaylaya, mevsim
+                    koşullarına bağlı olarak araçla da gidilebilir.
+
+
+                    <br>
+                    Homeze Yaylası :<br>
+
+                    İkizdere ilçesinde 2368 m yükseklikte bulunur. Yeni dönem yapılaşmalarının dikkatlice ve genellikle
+                    ahşap malzeme kullanılarak inşa edildiği önemli bir manzara noktasıdır. 360 derecelik bir panaromik
+                    nokta olarak ön plana çıkan bir yayladır.
+
+
+                    <br>
+                    Sivrikaya Yaylası :<br>
+
+                    İkizdere ilçesine 25 km mesafede bulunan yayla 1875 m yüksekliktedir. Ormanları ve geniş otlaklar
+                    arasındaki yerel ahşap mimari örnekleri gözlemlenebilir.
+
+
+                    <br>
+                    Anzer (Ballıköy) Yaylası :<br>
+
+                    İkizdere ilçesinde 2105 m yüksekliktedir. Kent merkezine 85 km mesafede bulunan yaylaya İkizdere
+                    ilçesinden ulaşım sağlanır. Ballıköy adı ile de anılan Anzer bir taraftan Çoruh nehri ve Bayburt'a,
+                    diğer taraftan Trabzon Uzungöl Turizm Merkezi’ne bağlanır. Bir geçiş bölgesinde olmasının getirdiği
+                    kültürel etkilerin yanısıra Meles, Petran, Kabahor, Garzavan yaylalarıyla çevrili konumuyla
+                    geleceğin önemli turizm merkezlerinden biri olma yolundadır. Kırklardağı eteklerinde yer alması bir
+                    yayla merkezi niteliği oluşturur. Yeme-içme ve konaklama imkanı bulunmaktadır. Dünyaca ünlü Anzer
+                    Balı, yaylalarının bin türlü çiçeğinden damıtılır. Yaz aylarında yeşilin farklı tonlarına, kış
+                    aylarındaysa sarı ve kırmızı ağırlıklı renklere bürünerek yaprak döken ağaçlarıyla özellikle doğa
+                    yürüyüşü ve fotoğrafçılığı için cezbedicidir.
+
+                    <br>
+                    Ovit Yaylası :<br>
+
+                    İkizdere İlçesi'ne yaklaşık 36 km mesafedeki Ovit Yaylası ve çevresi 'Kış Turizmi Merkezi' ilan
+                    edilmiştir. Yazın dağcılık ve trekking gibi aktivitelere evsahipliği yapan bölgenin, kış sporlarına
+                    uygun coğrafi potansiyelinin degerlendirilmesi planlanmaktadır.
+
+                    <br>
+
+                    Sal Yaylası :<br>
+
+                    Çamlıhemşin ilçesinde 2002 m rakımlı, geleneksel ahşap evleri ile otantik özelliğini koruyan
+                    manzaralı bir yayladır.
+
+
+                    <br>
+                    Pokut Yaylası :<br>
+
+                    Çamlıhemşin İlçesi’nin güneyinde, Fırtına ve Hala derelerinin oluşturduğu vadiler arasında yer alan
+                    yayla, orman üst sınırı civarında 2032 m yükseklikte yer alırlar. Doğa yürüyüşü yapmak ve dinlenmek
+                    için ideal bir ortam sunan yayla, zengin biyolojik çeşitliliklerinin yanı sıra emsalsiz bir sivil
+                    mimari yapıya sahiptir. Çamlıhemşin ilçesine15 km mesafede bulunan yayla özgün mimarisiyle dikkat
+                    çeker. Sisli manzaraları ve otantik ahşap evleri yaylaya masalsı manzaralar sunar. Yaylada pansiyon
+                    olarak hizmet veren yayla evlerinde konaklama imkanı bulunmaktadır.
+
+                    <br>
+
+                    Hazindağ Yaylası:<br>
+
+                    Çamlıhemşine bağlı olup 1967 m yüksekliktedir. Otantik yapısı tamamen korunan yayla, çok güzel bir
+                    manzara noktasıdır.
+
+                    <br>
+
+                    Samistal Yaylası :<br>
+
+                    Çamlıhemşin ilçesinde, 2508 m yükseklikte bulunan yayla sal şeklindeki büyük taş kütlelerinden
+                    oluşan ve geçmişi eskiye uzanan yöresel mimari özellikleri ile dikkat çeker.
+
+                    <br>
+
+                    Golezana Yaylası :<br>
+
+                    Ardeşen ilçesinde 2230 m rakımda yer alır. Otantik yapısı ile manzara ve fotoğraf için uygun bir
+                    yayladır.
+
+
+                    <br>
+                    Palovit Yaylası :<br>
+
+                    Çamlıhemşin ilçe merkezine araç ile 4 saat mesafede bulunan Palovit Yaylasının yüksekliği 2338
+                    m’dir. Geleneksel taş yayla evleriyle dikkat çeken Palovit Yaylası, Kaçkar Dağları’nın kuzeybatı
+                    yamacında, bir yanı tümüyle ormanlarla kaplı, diğer yanı ise dağ yamacına dayalı Karadeniz’in en
+                    güzel yükseltilerinden biridir.
+
+                    <br>
+
+                    Elevit Yaylası :<br>
+
+                    Çamlıhemşin ilçesinde 1884 m rakımda bulunur. Yayla daha çok gurbetçiler tarafından yaz aylarında
+                    ziyaret edilmektedir. Konaklama imkanı bulunan yaylanın geleneksel yayla evleri de ilgi çekicidir.
+                    Elevit yaylası, horonları ile ünlü olması nedeniyle Ağustos aylarında yapılan şenlikleri ile dikkat
+                    çeker. Başta yaban keçisi olmak üzere Karadeniz'e özgü diğer yabani hayvanlar da bulunur.
+                    <br>
+
+
+                    Amlakit Yaylası :<br>
+
+                    Çamlıhemşin İlçesinde 1993 rakımda bulunur. Varvator Şenlikleri ile ünlüdür. Yerel mimari örnekleri
+                    ile görülmesi gereken yaylalardandır.
+
+                    <br>
+
+                    Verçenik Yaylası :<br>
+
+                    Çamlıhemşin İlçe merkezine yaklaşık 60 km mesafede olan yayla 2618 m rakıma sahiptir. Çevresinde
+                    10’dan fazla göl bulunur. 3711 metreyle Kaçkar zirvesinden sonraki en yüksek nokta yayla sınırları
+                    içindedir. Bu yükseltisi ile ülkenin en yüksek 12 tepesinden biri olma özelliğine sahiptir. Yaylaya
+                    Çamlıhemşin-Çat yolu üzerinden ulaşılabilir.
+
+                    <br>
+
+                    Hacivanak Yaylası :<br>
+
+                    Çamlıhemşin ilçesinde 2587 m rakımda yer alır. Yaklaşık 100 hanelik yerleşime sahiptir. Bakir kalmış
+                    doğal güzellikleriyle görülmeye değer yerlerden olan yayla özellikle günübirlik doğa yürüyüşleri
+                    için idealdir.
+                    <br>
+
+
+                    Aşağı ve Yukarı Kavron Yaylaları :<br>
+
+                    Kaçkar Dağları eteklerinde kurulu yaylalardan olan Yukarı Kavron Yaylası 2267 m, Aşağı Kavron
+                    Yaylası ise 1953 m rakıma sahiptir. İki yayla arasında yaklaşık 1,5 km mesafe bulunmaktadır.
+                    Yeme-içme ve konaklama imkanı bulunan yaylaların yaz aylarında turizm potansiyeli oldukça yüksektir.
+                    Kaçkarlara yapılacak yürüyüş ve tırmanışların son çıkış noktası olma özelliğindedir. Aynı zamanda
+                    Kaçkar bölgesi göllerine yapılan yürüyüşlerin de en çok kullanılan başlangıç noktasıdır.
+
+                    <br>
+
+                    Ambarlı Yaylası :<br>
+
+                    Çayeli ilçesinde 2429 m yükseklikte, manzaralı bir yayladır. Yayla araç ile gidilebilecek son
+                    noktadır.
+
+
+                    <br>
+                    Kito Yaylası :<br>
+
+                    Çamlıhemşin'e bağlı olup Fırtına Vadisi'nden güney yönüne doğru manzaralı bir orman yolundan
+                    ulaşılır. Manzaralı ve hakim konumlu bir yayladır.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#yaylalar2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="yaylalar2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/yaylalart2.png" class="card-img-top " alt="...">
+                  <img src="resimler/yaylalart3.png" class="card-img-top" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#yaylalar" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#yaylalar" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/DoğaveSpor2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Doğa ve Spor Turizmi</h5>
+          <div class="modal fade" id="DoğaveSpor" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Doğa ve Spor Turizmi
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Rize’nin dağları ve yaylaları keyifli ve hayranlık verici yürüyüş parkurlarına, debisi yüksek
+                    nehirleri raftinge, bitki ve hayvan çeşitliliği doğa gözlemlerine, zirveleri zorlu dağcılık
+                    rotalarına olanak sağlar. Kent, bu durumuyla hayli yüksek bir doğa turizmi potansiyeline sahiptir.
+                    Heliski, kar yürüyüşü, hedikle kar yürüyüşü gibi macera sporları da yetkili acentelerce
+                    düzenlenmektedir.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#DoğaveSpor2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="DoğaveSpor2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/DoğaveSpor1.png" class="card-img-top kartresim" alt="...">
+                  <img src="resimler/DoğaveSpor3.png" class="card-img-top" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#DoğaveSpor" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#DoğaveSpor" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/dagsporları1.png" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Akarsu Sporları</h5>
+          <div class="modal fade" id="AkarsuSporları" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Akarsu Sporları
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Rize’de akarsu sporları (Kano-Rafting) meraklılarını buluşturan en ideal yer Fırtına Deresi olmakla
+                    birlikte, Taşlıdere ve İkizdere (İyidere) de diğer alternatifler olarak öne çıkmaktadır. Fırtına
+                    Deresi, Kaçkar Dağları'nın Karadenize bakan yamaçlarından çağlayan derelerin birleşmesi ile
+                    oluşmuştur, bu nedenle Rize’deki akarsular içerisinde akarsu turizmi açısından en önemlisi sayılır.
+                    Ardeşen’in yaklaşık 2 km batısından Karadenize dökülen Fırtına Deresi 57 km uzunluğundadır. Çay ve
+                    meyva bahçeleri içerisinden, halen kullanımda olan tarihi taş kemer köprülerin altından akan
+                    Fırtına, sadece heyecan ve spor için değil, Rize kültürünün kalbinden geçen bir seyahat için de
+                    bulunmaz fırsatlar sunar. Rize- Ardeşen karayolundan, güneye çıkan karayolu takip edilerek 22 km
+                    sonra Çamlıhemşin’e ulaşılır. Çamlıhemşin’in yaklaşık 1 km güneyinden parkura başlanabilir. Yaklaşık
+                    23 km süren parkur boyunca derenin yatağı çok taşlı olup, suyun debisine göre 3-4-5 zorluk
+                    derecesinde yerler vardır. Özellikle aşırı yağmurlar sonrasında dikkat edilmelidir.
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#AkarsuSporları2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="AkarsuSporları2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/dagsporları2.png" class="card-img-top kartresim" alt="...">
+                  <img src="resimler/dagsporlari3.png" class="card-img-top kartresim" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#AkarsuSporları" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#AkarsuSporları" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/heliski2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Heliski (Helikopterle Kayak)</h5>
+          <div class="modal fade" id="Heliski" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Heliski (Helikopterle Kayak)
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Dünyanın en heyecanlı doğa sporlarından biri olan heliski, yakın zamana kadar sadece İsviçre
+                    Alplerinde, Himalayalarda ve Kanada dağlarında yapılıyordu. 2004 yılından itibaren, Avrupalı kayak
+                    tutkunları için Kaçkar Dağları'na turlar düzenlenmeye başlandı. Ayder Yaylası'nda konaklayan
+                    kayakçılar ve snowboardcular helikopterle Kaçkar Dağları'nın sarp tepelerine ulaşıyor ve dağların
+                    eteklerine doğru serbest stilde iniş yapıyorlar. Yalnızca profesyonel kayakçılar tarafından yapılan
+                    bu spor, özel malzemeler ve tecrübe gerektiriyor. Her yıl Ocak-Nisan aylarında yapılan heliski,
+                    Kaçkarların eteklerinde, Ayder, İkizdere ve Ovit ve diğer yüksek rakımlı bölgelerde kayak
+                    tutkunlarını buluşturmaktadır. Heliski sayesinde bölgede kayak sporunun geliştirilmesi noktasında
+                    önemli çalışmalar başlatılmıştır. Yılda yaklaşık 500 kayak sever heliksi kayak sporu yapmak için
+                    Rize'ye gelmektedir.
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#Heliski2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Heliski2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/heliski1.png" class="card-img-top kartresim" alt="...">
+                  <img src="resimler/heliski3.png" class="card-img-top kartresim" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#Heliski" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#Heliski" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card card2" >
+        <img src="resimler/BitkiveHayvanGözleme1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bitki ve Hayvan Gözleme</h5>
+          <div class="modal fade" id="BitkiveHayvanGözleme" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Bitki ve Hayvan Gözleme
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Rengarenk kır çiçekleri, dağ çayırları ile kaplı olan yaylaların çevresi genellikle ladin türü çam
+                    ağaçları ile kaplıdır. Karadeniz kıyıları sahip olduğu yeşillikleri sadece bol yağmuruna değil,
+                    nemli ve sisli havasına da borçludur.Yaylalarda bitki örtüsü genel olarak köknar, ladin, sarıçam,
+                    sedir, kayın, meşe, ıhlamur, karaağaç, gürgen, kızılağaç, yabani fındık gibi ağaç türleriyle
+                    kardelen, yabani açelya, orman gülü, gökovan gibi binlerce çeşit kır çiçeğinden oluşur.Orman üst
+                    sınırının ötesinde bulunan yaylalarda ve çayırlık alandaki çiçek türleri arıcılığa olanak tanır.
+                    Dağlardaki su kaynaklarına yakınlığı ve çiçek çeşitliliği ile Anzer, balıyla dünyaca tanınan bir
+                    marka haline gelmiştir.
+
+                    Ormanlık alanda geyik, ceylan, bozayı, kurt, çakal, tilki gibi hayvanların yanı sıra çayırlık ve
+                    fundalık alanlarda huş tavuğu, ur kekliği, yalçın tepelerde ise çengel boynuzlu dağ keçisi gibi
+                    türlere rastlamak mümkündür. Atmaca avcılığı ve yakalanan bu hayvanların eğitimi sonrasında yapılan
+                    bıldırcın avcılığı yöre kültüründe önemli yer teşkil eder.Kaçkar Dağları Milli Parkı sınırları
+                    içerisinde, Kaçkar zirvelerinden doğan Hala Deresi ile kaynağı Verçenik Dağları’nda olan Fırtına
+                    Deresi civarı zengin bitki örtüsü ile dikkat çekmektedir.
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#BitkiveHayvanGözleme2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="BitkiveHayvanGözleme2" aria-hidden="true"
+            aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/BitkiveHayvanGözleme2.png" class="card-img-top kartresim" alt="...">
+                  <img src="resimler/BitkiveHayvanGözleme3.png" class="card-img-top kartresim" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#BitkiveHayvanGözleme" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#BitkiveHayvanGözleme" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/DoğaFotoğrafçılığı3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Doğa Fotoğrafçılığı</h5>
+          <div class="modal fade" id="DoğaFotoğrafçılığı" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Doğa Fotoğrafçılığı
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Yeryüzünde ender bulunan bir doğa güzelliğine sahip olan Rize’de fotoğraf meraklıları için eşsiz
+                    karelerin yakalanabileceği geziler düzenlenmektedir. 3900 m yüksekliğe varan Kaçkarlar’ da bitki ve
+                    hayvan türlerinin yanı sıra dağların, bulutların ve insanın birlikteliğinden doğan nefis manzaraları
+                    bir fotoğraf karesine sığdırabilmek için planlarınızı yapmaya başlayabilirsiniz.
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#DoğaFotoğrafçılığı2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="DoğaFotoğrafçılığı2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/DoğaFotoğrafçılığı1.png" class="card-img-top kartresim" alt="...">
+                  <img src="resimler/DoğaFotoğrafçılığı2.png" class="card-img-top kartresim" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#DoğaFotoğrafçılığı" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#DoğaFotoğrafçılığı" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card2" >
+        <img src="resimler/KampveKaravanTurizmi1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kamp ve Karavan Turizmi</h5>
+          <div class="modal fade" id="KampveKaravanTurizmi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Kamp ve Karavan Turizmi
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Rize yaylaları, temiz havası ve güzel manzaraları nedeniyle kampçılar tarafından sıklıkla tercih
+                    edilmektedir. Kaçkar Dağları Milli Parkı'nda kamp ve karavan turizmi için önemli olanaklar
+                    bulunmaktadır.
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#KampveKaravanTurizmi2" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">İleri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="KampveKaravanTurizmi2" aria-hidden="true"
+            aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="resimler/KampveKaravanTurizmi2.png" class="card-img-top kartresim" alt="...">
+                  <img src="resimler/KampveKaravanTurizmi3.png" class="card-img-top kartresim" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#KampveKaravanTurizmi" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Geri</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn2 btn-primary" data-bs-toggle="modal" href="#KampveKaravanTurizmi" role="button">Bilgi için
+            tıklayınız</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div>
+    <div class="row w-100 text-center">
+      <h2>Turizm Merkezleri</h2>
+      <div class="col">
+        <div class="card card3">
+          <img src="resimler/AnzerKültür3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Anzer Kültür ve Turizm Koruma Gelişim Bölgesi</h5>
+            <div class="modal fade" id="AnzerKültür" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Anzer Kültür ve Turizm Koruma Gelişim Bölgesi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Anzer Kültür ve Turizm Koruma Gelişim Bölgesi, Rize İl Merkezine 54 km, İkizdere İlçe Merkezine 35
+                      km mesafede yer almaktadır. 2200-2300 m. yükseklikte yer alan ve tasarrufu devlete ait olan Anzer,
+                      07.02.1991 tarih ve 91\1514 sayılı Bakanlar Kurulu Kararı ile Kültür ve Turizm Koruma Gelişim
+                      Bölgesi ilan edilmiştir.
+
+                      İkizdere-Anzer, yaylalarının doğal güzelliği, otantik özellikleri, zengin flora ve fauna yapısı ve
+                      irili ufaklı birçok buzul gölüyle görülmeye değer yerlerdendir.Yöreye özgü dünyaca ün kazanmış
+                      Anzer Balı ile Anzer Kültür ve Turizm Koruma Gelişim Bölgesi trekking, yamaç paraşütü, heliski,
+                      jeep safari, foto safari ve zirve tırmanışları (dağcılık) gibi bir çok turizm aktivitesinin
+                      gerçekleştirilebilmesi için elverişli imkanlara sahiptir.
+
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#AnzerKültür2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="AnzerKültür2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/AnzerKültür1.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/AnzerKültür2.png" class="card-img-top kartresim" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#AnzerKültür" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn3 btn-primary" data-bs-toggle="modal" href="#AnzerKültür" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card3"  >
+          <img src="resimler/AyderKültür1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ayder Kültür ve Turizm Koruma Gelişim Bölgesi
+            </h5>
+            <div class="modal fade" id="AyderKültür" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Ayder Kültür ve Turizm Koruma Gelişim Bölgesi
+
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Ayder Kültür ve Turizm Koruma Gelişim Bölgesi, Rize il merkezine 87 km, Çamlıhemşin ilçe merkezine
+                      ise 16 km mesafede yer almaktadır. 19.04.1987 tarihinde Turizm Merkezi ilan edilen Ayder, bir çok
+                      aktiviteyi barındırması (yayla, kaplıca, kış turizmi) nedeniyle 20.11.2006 tarih ve 11264 sayılı
+                      Bakanlar Kurulu Kararı ile Kültür ve Turizm Koruma Gelişim Bölgesi ilan edilmiştir.
+
+                      Ayder Yaylası, doğal güzellikleri, yöreye has otantik mimarisi ve birçok hastalığa şifa olduğu
+                      bilimsel olarak kanıtlanmış olan termal kaplıcası, ayrıca özellikle 2004 yılından itibaren
+                      ülkemizde ilk defa gerçekleştirilen Heliski kayak sporu ile çekiciliğini artırmış, yerli ve
+                      yabancı turistlerin ilgi odağı haline gelmiştir. Ayder bölgesi temal turizmin yanı sıra heliski,
+                      trekking, foto safari, kampçılık, dağcılık gibi birçok turizm aktivitesi seçeneğiyle
+                      ziyaretçilerine farklı tatil alternatifleri sunmaktadır.
+
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#AyderKültür2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="AyderKültür2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/AyderKültür2.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/AyderKültür3.png" class="card-img-top kartresim" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#AyderKültür" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn3 btn-primary" data-bs-toggle="modal" href="#AyderKültür" role="button">Bilgi için
+              tıklayınız</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card3">
+          <img src="resimler/kuspa2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kuspa Turizm Merkezi</h5>
+            <div class="modal fade" id="Kuspa" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Kuspa Turizm Merkezi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Rize il merkezine 19 km, Çayeli ilçe merkezine 7 km mesafede bulunan Kuspa, 20.11.2006 tarih ve
+                      11264 sayılı Bakanlar Kurulu Kararı ile turizm merkezi ilan edilmiştir. Kuspa, deniz manzaralı,
+                      oldukça geniş ve düz bir alana sahiptir. Ayrıca ilçede bulunan Ağaran ve Çataldere Şelaleleri
+                      gerek yükseklikleri, gerekse ilkbaharda suların kabarmasıyla birer doğa harikasına dönüşürler.
+                      Musa Dağı ve Melipos Tepeleri mesire yeri olarak kullanılmaktadır. Tahpur Yaylası’ndan Verçenik
+                      Tepesi'ni ve Kaçkarları seyretmek mümkündür.
+
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Kuspa2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Kuspa2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/Kuspa2.png" class="card-img-top kartresim" alt="...">
+
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Kuspa" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn3 btn-primary" data-bs-toggle="modal" href="#Kuspa" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card3">
+          <img src="resimler/Ovit1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ovit Dağı Kış Turizm Merkezi</h5>
+            <div class="modal fade" id="KampveKaravanTurizmi" aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Ovit">Ovit Dağı Kış Turizm Merkezi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Rize İkizdere ilçesinde, kent merkezine 91 km, ilçe merkezine 34 km mesafede yer alan 2640 metre
+                      rakımlı Ovit Yaylası ve çevresi, Bakanlar Kurulu Kararı ile 2008 Yılında Kış Turizm Merkezi ilan
+                      edilmiştir. Kış sporları açısından dikkate değer potansiyele sahip olan bölge yaz aylarında
+                      trekking, dağcılık, foto safari, jeep safari gibi turizm faaliyetlerinin gerçekleştirilmesine
+                      olanak sağlamaktadır.
+
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Ovit2" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">İleri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Ovit2" aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="resimler/ovit2.png" class="card-img-top kartresim" alt="...">
+                    <img src="resimler/Ovit3.png" class="card-img-top kartresim" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Ovit" data-bs-toggle="modal"
+                      data-bs-dismiss="modal">Geri</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn3 btn-primary" data-bs-toggle="modal" href="#Ovit" role="button">Bilgi için
+              tıklayınız</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Kartlar baslangic-->
+  <!--FOOTER BASLANGIC-->
+  <aside class="footeraside">
+
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Footer text</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+              aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Footer text</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+              aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
   </aside>
-      <!--FOOTER BASLANGIC-->
-      <aside class="footeraside">
-    
-        <footer class="bg-light text-center text-lg-start">
-            <!-- Grid container -->
-            <div class="container p-4">
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Footer text</h5>
-          
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                  </p>
-                </div>
-                <!--Grid column-->
-          
-                <!--Grid column-->
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Footer text</h5>
-          
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                  </p>
-                </div>
-                <!--Grid column-->
-              </div>
-              <!--Grid row-->
-            </div>
-            <!-- Grid container -->
-          
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2020 Copyright:
-              <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-            <!-- Copyright -->
-          </footer>
-    
-    </aside>
-    <!--FOOTER BASLANGIC-->
+  <!--FOOTER BASLANGIC-->
 
 
 
@@ -163,7 +1563,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
   </script>
-
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
