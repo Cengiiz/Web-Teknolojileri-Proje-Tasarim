@@ -1,9 +1,43 @@
-# Web Teknolojileri Proje/Tasarim
- 
-Merhaba sitede kullanicagimiz bilgilerden birazcik burada bahsedelim.Ben Cengizhan KOÇAL Sakarya Üniversitesi 3. sinif ögrencisiyim. 
-Aslen Rizeliyim fakat doğma büyüme İstanbulluyum.Memleketim Rizeden bahsetmek gerekirse Rize'nin tarihi hakkında bilgilerimiz sınırlıdır. 
-Yöreye hakim olan orman dokusu nedeniyle, Rize'nin tarih çağları ile ilgili bilgilere ışık tutacak arkeolojik bulgular da bu güne kadar ortaya çıkarılamamıştır. 
-Rize'nin tarihi ancak komşu illerin ve bölgelerin tarihleri ile bağlantılı olarak ele alınabilmiştir.
-Rize ilinin adı ile ilgili olarak değişik görüşler ileri sürülmüştür; Yunanca pirinç anlamına gelen Rhisos, Rumca'da "RIZA" olarak dağ eteği anlamında kullanılmıştır. 
-Osmanlıca'da ise "RİZE" ufak kırıntı, döküntü anlamındadır. Ayrıca Erzincan'ın Sakalar dönemindeki "Eriza" olan adının başındaki "e" sesinin düşmesi ile adaş olarak Rize için de kullanıldığı ifade edilmektedir.
-Daha ayrintili bilgi sitede yer alacaktir.
+# web-teknolojileri-projesi
+
+###   Projenin Amacı:
+- Kendimi ve yaşadığım şehri tanıtan kişisel bir web sitesi geliştirmek.
+
+
+###   İçerik:
+
+  ##### Ana Sayfada  
+    - Diğer sayfalara ulaşılabilicek menü  
+    
+  ##### Hakkında Sayfası  
+    - Kişisel ilgi alanlarım vb. bilgiler  
+    
+  ##### Özgeçmiş Sayfası      
+    - Eğitim bilgileri table ve div kullanarak oluşturulmalı  
+    
+  ##### Şehrim Sayfası    
+    - Şehre ait kısa bir metin,  
+    - En az 4 mekana ait fotoğrafın olduğu bir slider  
+    - Slider daki resimlere tıklandığında resimlere ait içerik sayfaları açılmalı  
+   
+  ##### Mirasımız Sayfası  
+    - Şehirdeki kültürel bir mekanın tanıtımı   
+    
+  ##### Login Sayfası   
+    - Kullanıcıdan kullanıcı adı ve şifre istenmeli   
+    - Eğer kullanıcı adı ve şifre doğrulanırsa 'Hoşgeldiniz' mesajı verilmeli,    
+    - Eğer kullanıcı ad veya şifre yanlış ise login sayfasına geri dönülmeli,  
+    - Kullanıcı adının mail olup olmadığı,    
+    - Kullanıcı adı ve şifrenin boş olup olmadığı kontrol edilmeli,   
+    
+  ##### İletişim Sayfası  
+    - Form elemanları kullanılmalı    
+    - Kontrol işlemleri javascript ile yapılmalı    
+    - Gönderilen form bilgileri başka bir sayfada görüntülenmeli    
+    
+###    Proje Süreci  
+     - Projenin 4 farklı versiyonunu oluşturmayı planlıyorum.  
+    - İlk versiyonda sayfaların html dosyalarının yazılması ve gerekli dökümanın ve içeriğin toplanması.  
+    - Sayfaların tasarım kodlarının yazılması,  
+    - Gerekli javascript ve php dosyalarının tamamlanması,  
+    - Ve son olarak eksik gördüğüm ve eklemek istediğim kısımların eklenmesi.
