@@ -11,7 +11,7 @@
     position: relative;
     width: auto;
     display: block;
-    background-color: #ffee00;
+    background-color: #ffffff;
     /*margin: 1%;*/
     float: left;
 }
@@ -34,19 +34,19 @@
 }
 
 .accordion-body {
-    background-color: aqua;
+    background-color: #ffffff;
 }
 
 .accordion-button {
-    background-color: aqua;
+    background-color: #ffffff;
 }
 
 button {
-    background-color: aqua;
+    background-color: #ffffff;
 }
 
 .hakkimda {
-    background-color: #deec1c;
+    background-color: #ffffff;
     position: relative;
     top: 30px;
 }
@@ -56,13 +56,13 @@ button {
     position: relative;
     top: -65px;
     font-size: 50px;
-    border: 10px solid #deec1c;
-    background-color: #deec1c;
+    border: 10px solid #ffffff;
+    background-color: #ffffff;
 }
 
 .hobisporaside {
     min-height: 730px;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 side>.resim>img {
@@ -86,10 +86,9 @@ side>.resim>img {
 .tuzla {
     width: 98%;
     display: block;
-    background-color: #00e1ff;
+    background-color: #ffffff;
     margin: 1%;
     float: left;
-    border-style: dashed;
 }
 side>.con>img{
     width: 120px;
