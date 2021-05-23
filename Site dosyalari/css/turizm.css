@@ -3,11 +3,11 @@
 }
 .card-body
 {
-    background-color: #dee211be;
+    background-color: #ffffff;
 }
 .card
 {
-    border-color: #dee211be;
+    border-color: #ffffff;
     width: 22rem;
 }
 @media (min-width:2063px) and (max-width:2585px){
