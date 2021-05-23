@@ -1,0 +1,13 @@
+.container{
+    position: relative;
+    top:30px;
+    margin: auto;
+}
+.con{
+    min-height: 470px;
+}
+@media (min-width:320px) and (max-width:1650px) {
+    .a{
+    min-height: 600px;
+    }
+}
