@@ -1,0 +1,48 @@
+side>.con>img {
+    float: right;
+    margin-right: 10px;
+}
+.side{
+    width: 100%;
+}
+aside{
+    float: left;
+    border-color: gray;
+    /*border-style: dashed;*/
+    background-color: white;
+    position: relative;
+}
+section{
+    float: left;
+    min-height: 280px;
+    border-color: gray;
+    /*border-style: dashed;*/
+    background-color: white;
+    position: relative;
+}
+article{
+    float: left;
+    min-height: 280px;
+    border-color: gray;
+    /*border-style: dashed;*/
+    background-color: white;
+    position: relative;
+}
+.cvresim{
+    width: 250px;
+    height: 300px;
+}
+@media only screen and (max-width:870px){
+    article{
+        width: 98%;
+    }
+    .cvresim{
+        width: 98%;
+        height: 98%;;
+        float: right;
+    }
+}
+.mtop{
+    margin-top:5%;
+}
+
