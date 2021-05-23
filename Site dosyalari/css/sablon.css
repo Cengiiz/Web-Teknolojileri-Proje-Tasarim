@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: helvetica;
     line-height: 2;
-    background-color: #dee211be;
+    background-color: #dfdbdb;
     padding-top:50px;
 
 }
@@ -29,7 +29,7 @@ aside{
 side{
     width: 48%;
     display: block;
-    background-color: #eff3109a;
+    background-color: #ffffff;
     margin: 1%;
     float: left;
     /*border-style: dashed;*/
@@ -53,22 +53,11 @@ side{
     position: relative;
     margin-top: 50px;
 }
-.footerside
-{
-    position: relative;
-    height: 22%;
-    width: auto;
-    display: block;
-    float: left;
-    bottom: auto;
-    margin: 0 auto;
-
-}
 aside>footer>.side
 {
     border-right: 5px;
     border-left: 5px;
 }
 .dropdown-menu{
-    background-color: rgb(0, 247, 255)
+    background-color: rgba(0, 247, 255, 0.562)
 }
