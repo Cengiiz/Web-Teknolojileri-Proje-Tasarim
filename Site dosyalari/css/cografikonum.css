@@ -3,11 +3,17 @@
     width: 86%;
     height: 800px;
     float: auto;
-    background-color: #00ff55;
+    background-color: #dfdbdb;
 }
 .cografiside
 {
     width: 45%;
     height: auto;
-    background-color: #00ff55;
+    background-color: #ffffff;
+}
+.sola{
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 150px;
 }
